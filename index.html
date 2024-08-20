@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="photos/logo3.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Frontend Developer</p>
+          <h1>Hi,I'am <span>Akhil</span><br />Malvi From India</h1>
+        </div>
+      </div>
+    </div>
+    <!----------------------------about------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="photos/user.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              My self Akhil Malviya and I'am dedicated BCA student passionate
+              about technology and innovation.Through my portfolio website,I am
+              to provide a glimpse into my journey.My academic pursuits have
+              honed my analytical thinking and teamwork,qualities I bring to
+              every project.I hope to connect with fellow learners,mentors,and
+              potential collaborators.Let's inspire and create together!
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links"  onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links"  onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Web Design</span><br>Designing website structure</li>
+                    <li><span>Graphic Design</span><br>Designing innovative Interfaces</li>
+                    <li><span>Frontend Developer</span><br>Create a web Application</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>2023 - Current</span><br> Web Design Training to College Cources</li>
+                    <li><span>2022 -2023</span><br>To Experts traninig for  complete Graphic design course</li>
+                    <li><span>Frontend Developer</span><br>I am practice for Frontend Designs</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2023</span><br>Graphic Design  traninig at kadi University</li>
+                    <li><span>2023</span><br>BCA from KADI Ahemedabad</li>
+                    <li><span>Frontend Developer</span><br>MSC.IT is pending</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!----------------------------------------------services------------------------------------------ -->
+<div id="services">
+  <div id="container">
+    <h1 class="sub-title">MY Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Web design services involve creating and designing websites  to provide an appealing and
+           functional online presence.</p>
+           <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fas fa-crop-alt"></i>
+        <h2>UI/UX Design</h2>
+        <p>UI/UX designers create on designing intuitive user interfaces (UI) and optimizing user experiences
+            to with websites.</p>
+           <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-pen-nib"></i>
+        <h2>Graphic Design</h2>
+        <p>Graphic design services involve creating visually  effective designs for various purposes logos, 
+           branding materials.</p>
+           <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!----------------------------------------portfolio----------------------------------------------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="photos/work 1.jpg">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>The app connects you to the talented people around the world.
+            download it from play store.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="photos/work 2.jpg">
+        <div class="layer">
+          <h3>Music App</h3>
+          <p>The app connects you to the talented people around the world.
+            download it from play store.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="photos/work 3.jpg">
+        <div class="layer">
+          <h3>Online Shopping App</h3>
+          <p>The app connects you to the talented people around the world.
+            download it from play store.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<!--------------------------------------Contact---------------------------------->
+<div id="contact">
+    <div class="container">
+         <div class="row">
+              <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> akhilmalviya1234@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +91 9726184952</p>
+                <div class="social-icons">
+                  <a href="https://www.facebook.com/akhil.malviya.589"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://twitter.com/Akhil_Malviya25?t=QSRRR2zAPgJsMVoyy3gSKg&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                  <a href="https://instagram.com/akhil_malviya?utm_source=qr&ighid=MzNINGNkZWQ4Mg=="><i class="fa-brands fa-square-instagram"></i></a>
+                  <a href="https://linkedin.com/in/mr-akhil-malvi-013a82282"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Akhil professional CV.pdf" download class="btn btn2">Download CV</a>
+              </div>
+              <div class="contact-right">
+                <form >
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="email" placeholder="Your Email" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+                </form>
+              </div>
+         </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright @ Akhil. Made with <i class="fas fa-heart"></i>by Akhil's Develops</p>
+    </div>
+</div> 
+
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+     tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+     tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+  
+
+  </body>
+</html>  
